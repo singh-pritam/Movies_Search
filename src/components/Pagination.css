@@ -1,0 +1,12 @@
+.page_numbers {
+  display: flex;
+  list-style: none;
+}
+.page_numbers > li {
+  flex: 1;
+  padding: 8px;
+  border: 0.1px solid lightgrey;
+  background-color: white;
+  border-radius: 2px;
+  cursor: pointer;
+}

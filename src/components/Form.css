@@ -1,0 +1,44 @@
+.hidden {
+  display: none;
+}
+
+.overlay {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+}
+
+.container {
+  position: fixed;
+  height: 600px;
+  width: 500px;
+  top: 17%;
+  left: 20%;
+  background-color: rgba(0, 140, 196, 0.9);
+  padding: 20px, 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+form {
+  margin: 50px;
+}
+
+form > input {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: none;
+}
+
+form > button {
+  padding: 10px 20px;
+  font-size: 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
